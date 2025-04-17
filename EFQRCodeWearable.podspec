@@ -26,7 +26,6 @@ Pod::Spec.new do |s|
 	s.frameworks = 'ImageIO', 'CoreGraphics', 'Foundation'
 	s.ios.framework = 'CoreImage'
 	s.osx.framework = 'CoreImage'
-	s.tvos.framework = 'CoreImage'
 	s.watchos.dependency 'ef_swift_qrcodejs', '~> 2.3.0'
 
 	s.source_files = 'Source/**/*.{h,swift}'
